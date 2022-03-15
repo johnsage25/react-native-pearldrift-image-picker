@@ -1,5 +1,10 @@
 # react-native-pearldrift-image-picker
 
+[![npm](https://img.shields.io/npm/v/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
+[![npm](https://img.shields.io/npm/dm/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
+[![npm](https://img.shields.io/npm/dt/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
+[![npm](https://img.shields.io/npm/l/react-native-pearldrift-image-picker.svg)](https://github.com/syanbo/react-native-syan- image-picker/blob/master/LICENSE)
+
 ## Features
 
 A multi-image selection component based on an existing native third-party framework package, suitable for React Native App.
@@ -120,7 +125,7 @@ Added pictureVersion custom picture_library version
 
 ### Pay attention to the installation and running error
 1. Check whether the automatic link is successful
-2. Use Android Studio to check whether `new RNSyanImagePickerPackage()` is added to the `MainApplication.java` file
+2. Use Android Studio to check whether `new RNPearlImagePickerPackage()` is added to the `MainApplication.java` file
 3. Use Android Studio to open the project to check if Gradle is synced
 
 ## link failed manually added (<0.60)
@@ -135,8 +140,8 @@ Added pictureVersion custom picture_library version
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
 
-  - Add `import com.reactlibrary.RNSyanImagePickerPackage;` to the imports at the top of the file
-  - Add `new RNSyanImagePickerPackage()` to the list returned by the `getPackages()` method
+  - Add `import com.reactlibrary.RNPearlImagePickerPackage;` to the imports at the top of the file
+  - Add `new RNPearlImagePickerPackage()` to the list returned by the `getPackages()` method
 
 2. Append the following lines to `android/settings.gradle`:
   ```gradle
