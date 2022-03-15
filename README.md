@@ -1,10 +1,5 @@
 # react-native-pearldrift-image-picker
 
-[![npm](https://img.shields.io/npm/v/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
-[![npm](https://img.shields.io/npm/dm/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
-[![npm](https://img.shields.io/npm/dt/react-native-pearldrift-image-picker.svg)](https://www.npmjs.com/package/react-native- syan-image-picker)
-[![npm](https://img.shields.io/npm/l/react-native-pearldrift-image-picker.svg)](https://github.com/syanbo/react-native-syan- image-picker/blob/master/LICENSE)
-
 ## Features
 
 A multi-image selection component based on an existing native third-party framework package, suitable for React Native App.
